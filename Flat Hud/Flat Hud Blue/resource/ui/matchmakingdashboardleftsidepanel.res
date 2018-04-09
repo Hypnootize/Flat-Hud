@@ -22,9 +22,9 @@
 		"fieldName"		"TitleGradient"
 		"xpos"		"9999"
 		"ypos"		"0"
-		"wide"		"f0"
+		"wide"		"0"
 		"tall"		"0"
-		"zpos"	"0"
+		"zpos"	"98"
 		"visible"		"1"
 		"enabled"		"1"
 		"rotation"		"3"
@@ -36,26 +36,18 @@
 		"image"		"gradient_pure_black"
 	}
 	
-	"InnerGradient"
+	"Gradient"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"InnerGradient"
+		"fieldName"		"Gradient"
 		"xpos"		"9999"
-		"rotation"		"2"
-
-		if_left
-		{
-			"xpos"	"9999"
-			"rotation"		"1"
-		}
-
 		"ypos"		"0"
 		"wide"		"0"
 		"tall"		"0"
 		"zpos"	"1000"
 		"visible"		"1"
 		"enabled"		"1"
-
+		"rotation"		"2"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
@@ -63,27 +55,18 @@
 		"image"		"gradient_pure_black"
 	}
 
-	"OuterGradient"
+	"GradientRight"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"OuterGradient"
+		"fieldName"		"GradientRight"
 		"xpos"		"9999"
-		"rotation"		"1"
-
-		if_left
-		{
-			"xpos"	"9999"
-			"rotation"		"2"
-		}
-
 		"ypos"		"0"
 		"wide"		"0"
 		"tall"		"0"
 		"zpos"	"1000"
 		"visible"		"1"
 		"enabled"		"1"
-
-
+		"rotation"		"1"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
@@ -96,23 +79,15 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"labelText"		">"
-
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"<"
-		}
-
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-
+		"labelText"		">"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallBold"
 
@@ -127,14 +102,6 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
-		"labelText"		"<"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
-		}
-
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"20"
@@ -143,7 +110,6 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
-
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
