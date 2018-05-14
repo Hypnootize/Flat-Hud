@@ -39,9 +39,7 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
 		"visible_minmode"	"0"
 		"enabled"			"1"
@@ -76,8 +74,6 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -111,8 +107,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -128,8 +122,6 @@
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"25"
 		"ypos"			"20"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"
@@ -148,8 +140,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -183,8 +173,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -202,11 +190,7 @@
 		"ypos"			"19"
 		"zpos"			"5"
 		"wide"			"50"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
