@@ -377,4 +377,12 @@ event MMenu_PlayList_Collapse_Immediate
 	Animate PlayListContainer Tall 0 Spline 0 0.4
 }
 
-
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
