@@ -1,3 +1,0 @@
-Adds a regular cross to the left side of your numerical HP.
-
-Place in resource/ui.

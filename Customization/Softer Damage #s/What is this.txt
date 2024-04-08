@@ -1,3 +1,0 @@
-Changes damage #s to have a softer outline.
-
-Put into resource/ui.

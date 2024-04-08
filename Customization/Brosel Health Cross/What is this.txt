@@ -1,3 +1,0 @@
-Changes your HP to be a brosel-styled health cross (HP inside the cross) rather than the numerical display.
-
-Place into resource/ui.
